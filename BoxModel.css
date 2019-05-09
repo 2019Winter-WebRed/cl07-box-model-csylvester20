@@ -1,0 +1,35 @@
+/*
+* Chloe Sylvester
+* 9 May 2019
+* Box Model Practice
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+} /* this allows you to pick your own margins and paddings */
+
+/* Body attributes here */
+
+body {
+    border: 2px dashed #817A7A;
+    padding: 20px 60px 20px 20px;
+    margin: 20px;
+} /* this provides the big border around the whole entire content */
+
+main {
+    border: 2px solid rgb(251,178,178);
+    padding: 20px 2px 2px 2px;
+} /* this is the border and padding for the solid line around the word boxes */
+
+h1 {
+    border: 2px dashed blue;
+    margin: 10px;
+} /* gives the blue border around my heading */
+
+p {
+    border: 2px dashed rgb(175,106,219);
+    margin: 10px;
+} /* provides the border for my smaller paragraph of writing */
